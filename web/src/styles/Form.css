@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+.card#form{
+  max-width: 380px;
+  font-family: 'Sora';
+  font-weight: bold;
+  width: 380px;
+  height: 550px;
+  background-color: #11101d;
+  margin: 200px auto;
+}
+.card#form .logo_content{
+  margin: 10px auto;
+}
+
+.card#form span{
+  font-size: 14px;
+}
+
+.card#form .logo_content .logo{
+  display: flex;
+  height: 50px;
+  color: #EEEEEE;
+  width: 100%;
+  align-items: center;
+}
+
+.card#form .logo_content .logo .logo_name{
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .card#form{
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .card#form{
+    width: 330px;
+    margin: 45px auto;
+  }
+}
+@media screen and (max-width: 320px){
+  .card#form{
+    width: 290px;
+    margin: 9px auto;
+  }
+}
+
+@media screen and (max-width: 280px){
+  .card#form{
+    width: 250px;
+    margin: 45px auto;
+  }
+  .card#form .logo_content .logo_name{
+    font-size: 20px !important;
+  }
+
+}
+
